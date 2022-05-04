@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Freddie Butterfield"/>
+    <meta name="description" content="The Coolio Games company website"/>
+    <meta name="copyright" content="Freddie Butterfield"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/standardpages.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 id="redtext">Coolio Games&trade;</h1>
+            <img src="../img/logo.png" alt="Coolio Games Logo" width="100" height="100">
+        </header>
+        <nav class="bar">
+            <div class="dropdown" id="dropdownID">
+                <button class="dropbtn" id="dropbtnID">Contact</button>
+                <div class="dropdown-content" id="dropdowncontID">
+                    <a href="index.html">Home</a>
+                    <a href="founders.html">Founders</a>
+                    <a href="news.html">News</a>
+                    <a href="game.html">Demo Game</a>
+                    <a href="accessibility.html">Accessibility</a>
+                </div>
+            </div>
+        </nav>
+        <script src="../js/navbar.js"></script>
+
+        <main>
+            <div class="text">
+                <h1>Contact Us</h1>
+                <h2>Contact the company:</h2>
+                <p>If you wish to contact the company, here is a list of ways you can contact us</p>
+                <!--Fake details generated from https://www.fakeaddressgenerator.com/-->
+                <table>
+                    <tr>
+                        <th>Address</th>
+                        <td>79 Wrexham Road, Fairstead, NR10 0RR</td>
+                    </tr>
+                    <tr>
+                        <th>Phone number</th>
+                        <td>078 0530 2534</td>
+                    </tr>
+                    <tr>
+                        <th>Email Address</th>
+                        <td>business.enquiry@cooliogames.co.uk</td>
+                    </tr>
+                </table>
+                <h2>Contact our staff:</h2>
+                <p>
+                    If you wish to contact our important staff members, make sure the subject is meaningful. 
+                    If you are unsure whether your enquiry is significant or not please use the company details instead.
+                </p>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                    <tr>
+                        <td>Mr Freddie Butterfield</td>
+                        <td>CEO</td>
+                        <td>f.butterfield@cooliogames.co.uk</td>
+                        <td>077 4812 3020</td>
+                    </tr>
+                    <tr>
+                        <td>Mr Tyrone Smith</td>
+                        <td>CFO</td>
+                        <td>t.smith@cooliogames.co.uk</td>
+                        <td>078 3248 8155</td>
+                    </tr>
+                    <tr>
+                        <td>Mrs Jo Mama</td>
+                        <td>COO</td>
+                        <td>j.mama@cooliogames.co.uk</td>
+                        <td>077 5743 1287</td>
+                    </tr>
+                    <tr>
+                        <td>Sir Grimsley Higginbottom IV</td>
+                        <td>Marketing Manager</td>
+                        <td>g.higginbottom@cooliogames.co.uk</td>
+                        <td>077 2837 2863</td>
+                    </tr>
+                    <tr>
+                        <td>Dr LaBrawn Jones</td>
+                        <td>Production Manager</td>
+                        <td>l.jones@cooliogames.co.uk</td>
+                        <td>078 8746 8347</td>
+                    </tr>
+                </table>
+                <h2>Fill optional survey</h2>
+                <form name="survey" action="https://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.php" method="POST">
+                    <input type="hidden" name="recipients" value="fbutterfield1@sheffield.ac.uk">
+                    <label for="name">Full Name:</label>
+                    <input id="name" type="text" name="Name" autocomplete="off">
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input id="email" type="text" name="Email" autocomplete="off">
+                    <br><br>
+                    <label>Have you purchased any games from our franchises?</label>
+                    <br>
+                    <input type="checkbox" name="Games" value="Magic Adventure">Magic Adventure franchise
+                    <br>
+                    <input type="checkbox" name="Games" value="Scrimbly Binbo">Scrimbly Binbo franchise
+                    <br>
+                    <input type="checkbox" name="Games" value="Minebuilder">Minebuilder franchise
+                    <br>
+                    <input type="checkbox" name="Games" value="Big Chillers">Big Chillers franchise
+                    <br><br>
+                    <label>Have you heard of us before?</label>
+                    <input type="radio" id="heard_yes" value="yes" name="Heard before" checked>
+                    <label for="heard_yes">Yes</label>
+                    <input type="radio" id="heard_no" value="no" name="Heard before">
+                    <label for="heard_no">No</label>
+                    <br><br>
+                    <label>How did you hear about us?</label>
+                    <br>
+                    <input type="checkbox" name="Heard from" value="friend">Through a friend or colleague
+                    <br>
+                    <input type="checkbox" name="Heard from" value="advert">Through an advertisement
+                    <br>
+                    <input type="checkbox" name="Heard from" value="recommendation">Through a recommendation
+                    <br><br>
+                    <textarea name="Comments" id="commentbox" cols="30" rows="10">Any comments?</textarea>
+                    <br><br>
+                    <input type="submit" value="Submit survey">
+                    <input type="reset" value="Cancel">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy;Freddie Butterfield 2021.</p>
+            <p>
+                This is a work of fiction. Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously. 
+                Any resemblance to actual events or locales or persons, living or dead, is entirely coincidental. View image licenses <a href="licenses.html">here.</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
